@@ -10,5 +10,6 @@ print("Commited " + str(ip) + " times")
 
 if autoPush == "y":
 	os.system('git push')
+	print('ok')
  
 # git commit --allow-empty -m "New Commit at: $(date)"
