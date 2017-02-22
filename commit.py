@@ -10,6 +10,7 @@ print("Commited " + str(ip) + " times")
 
 if autoPush == "y":
 	os.system('git push')
-	print('okokok')
- 
+	print('okokok132123')
+ git commit --date="100000 day ago" -m "Your commit message" 
+ git commit --date="18024 day ago" -m "troll" 
 # git commit --allow-empty -m "New Commit at: $(date)"
