@@ -4,8 +4,7 @@ autoPush = input("Auto git push when commited? (y/n) \n")
 
 for i in range(ip):
 	# os.system('git commit --allow-empty -m "New Commit at: $(date)"')
-	os.system('git add commit.py')
-	os.system(f'git commit --amend --date="2018-09-11 11:11:11"')	
+	os.system(f'git commit --allow-empty -m "Commit {i} of {ip}"')	
 
 print("Commited " + str(ip) + " times")
 
